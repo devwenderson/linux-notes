@@ -6,3 +6,6 @@ Repositório para guardar anotações importantes acerca do linux e outras tecno
 
 ### Configuração do Docker
 [Docker config](./Docker/)
+
+### Dicas de markdown
+[Docker config](./Markdown-tips/)
