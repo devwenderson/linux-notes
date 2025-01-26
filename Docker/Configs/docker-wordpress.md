@@ -1,5 +1,5 @@
-- Arquivo configuração para usar wordpress
-
+# Arquivo configuração para usar wordpress
+- É necessário criar uma pasta `config` no local onde o arquivo docker-compose.yaml está
 ```docker
 version: '3.7'
 
@@ -41,6 +41,8 @@ services:
       WORDPRESS_DB_USER: wordpress
       WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - ./config/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
 
 volumes:
   db_data:
