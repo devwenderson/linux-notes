@@ -1,4 +1,7 @@
 # Configuração de ambiente de desenvolvimento com Nginx, PHP-FPM, MySQL e PHPMyAdmin
+- Estrutura das pastas
+![Estrutura das pastas](./imgs/image.png)
+
 - Docker compose file
 ```docker
 services:
